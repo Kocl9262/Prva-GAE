@@ -1,0 +1,137 @@
+/*Ozadje*/
+body{
+    background-color: #DEEEFA;
+}
+/*Tabela*/
+table{
+    width: 500px;
+    height: 300px;
+    border-collapse: collapse;
+    border: 5px solid darkblue;
+    color: darkblue;
+    font-family: cursive;
+}
+.tabela{
+    position: absolute;
+    left: 60%;
+    top: 150px;
+}
+td{
+    text-align: center;
+    border: 3px dashed darkblue;
+}
+th{
+    border: 3px solid darkblue;
+}
+/*Ko greš z miško čez link*/
+a.page_link:hover{
+    background-color: darkblue;
+    color: white;
+}
+/*Ko greš z miško čez gumb*/
+.gumb_vpis:hover{
+    color: white;
+    background-color: darkblue;
+    font-size: 150%;
+}
+button:hover{
+    color: white;
+    background-color: darkblue;
+}
+/*Ime Sebastjan Koci*/
+.sk_h2{
+    color: darkblue;
+    border: 2px dashed darkblue;
+    border-radius:20px 5px;
+    font-family: Arial;
+    width: 180px;
+}
+/*Slike v tabeli*/
+.img_size{
+    width: 100px;
+    vertical-align: middle;
+}
+/*Vrh strani, ki se ne premika*/
+.header{
+    position: fixed;
+    background-color: darkblue;
+    color: white;
+    height: 60px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+h1{
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.search{
+    position: fixed;
+    left: 40%;
+    top: 20px;
+    z-index: 1;
+    width: 400px;
+}
+.input_search{
+    width: 300px;
+    font-family: serif;
+    z-index: 1;
+}
+#fb_ico{
+    width: 24px;
+    vertical-align: middle;
+}
+/*Vpis v stran*/
+.login{
+    position: relative;
+    float: right;
+    margin-top: 40px;
+}
+/*Opis+slika*/
+.opis{
+    position: absolute;
+    top: 60px;
+    left: 30%;
+}
+/*Youtube film*/
+.youtube{
+    top: 600px;
+    position: absolute;
+    width: 99%;
+    text-align: center;
+}
+.h2_yt{
+    color: darkblue;
+    border: 2px dashed darkblue;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 5px;
+    font-family: fantasy;
+}
+/*Gumb za na vrh strani*/
+.na_vrh{
+    float: left;
+    margin-left: 50px;
+    margin-top: 1325px;
+    position: absolute;
+}
+#back_top{
+    visibility: hidden;
+}
+/*Spodnji del strani*/
+.bottom{
+    width: 100%;
+    height: 60px;
+    margin-top: 1300px;
+    left: 0px;
+    position: absolute;
+    background-color: darkblue;
+    text-align: center;
+}
+.bottom_link{
+    position: relative;
+    color: white;
+    top: 13px;
+}

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mirko Styles</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="mirko styles">
+    <meta name="keywords" content="mirko styles, frizerski salon">
+    <link rel="shortcut icon" href="ico/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    
+</head>
+<body>
+    
+    <div class="navbar navbar-inverse navbar-static-top">
+            
+        <div class="container">
+
+            <div class="navbar-header">
+
+                <a href="index.html" class="navbar-brand">Mirko Styles</a>
+
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <div class="collapse navbar-collapse navHeaderCollapse">
+
+                <ul class="nav navbar-nav navbar-left">
+
+                    <li><img src="img/logo.jpg" width="55px"></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li id="na_vrh" class="active"><a href="#">Domov</a></li>
+                    <li><a href="#kaj_nudimo">Kaj nudimo</a></li>
+                    <li><a href="#naroci_se">Naroči se</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#oNas" data-toggle="modal">O nas</a></li>
+
+                </ul>
+
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Išči">
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div id="myCarousel" class="carousel slide">
+
+            <ol class="carousel-indicators">
+
+                <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/sample1.jpg" alt="Prvi primer" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3 class="font_title">Frizura 1</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/sample2.jpg" alt="Drugi primer" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3 class="font_title">Frizura 2</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/sample3.jpg" alt="Tretji primer" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3 class="font_title">Frizura 3</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/sample4.jpg" alt="Četrti primer" class="img-responsive">
+                    <div class="carousel-caption">
+                        <h3 class="font_title">Frizura 4</h3>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+
+        </div>
+    </div>
+    
+    <br>
+    
+    <div class="container con_rob">
+        <div class="text-center">
+            <h2 id="kaj_nudimo" class="font_title">Kaj nudimo</h2>
+        </div>
+        <br>
+        <div class="row">
+            
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/nega_las.jpg" alt="Nega las">
+              <div class="caption">
+                <h3 class="font_title">Nega las</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam mi, ornare ut erat feugiat, sagittis tincidunt erat. Sed ac elit ex. Integer dolor augue, porta eget ex in, mattis cursus ante. Fusce augue diam, vulputate fermentum lectus iaculis, ornare consequat neque...</p>
+                <p><a href="nega.html" class="btn btn-default" role="button">Več</a></p>
+              </div>
+            </div>
+          </div>
+            
+            <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/barvanje_las.jpg" alt="Barvanje las">
+              <div class="caption">
+                <h3 class="font_title">Barvanje</h3>
+                <p>Lorem ipsum dolor sit amet, pellentesque at lacinia mauris. Mauris efficitur, nunc vehicula pulvinar lobortis, leo dolor bibendum lectus, vitae malesuada velit lectus sit amet odio. Mauris ut massa leo. Maecenas leo tellus, cursus vitae mauris a, pretium tristique mauriss...</p>
+                <p><a href="barvanje.html" class="btn btn-default" role="button">Več</a></p>
+              </div>
+            </div>
+          </div>
+            
+            <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/strizenje_las.jpg" alt="Striženje">
+              <div class="caption">
+                <h3 class="font_title">Striženje</h3>
+                <p>Lorem ipsum dolor sit amet, nullam at vulputate eros. Pellentesque sed pretium lorem. Nunc volutpat magna nunc, ac iaculis eros malesuada id. Aenean hendrerit faucibus convallis. Nullam accumsan, lacus a dictum rutrum, augue leo sodales dui, quis venenatis turpis orci ac dolor...</p>
+                <p><a href="strizenje.html" class="btn btn-default" role="button">Več</a></p>
+              </div>
+            </div>
+          </div>
+            
+        </div>
+    </div>
+    
+    <br>
+    
+    <div class="container con_rob">
+        <div class="text-center">
+            <h2 id="naroci_se" class="font_title">Naroči se</h2>
+        </div>
+        <br>
+        <div class="col-lg-6">
+            <div class="form-group">
+                <label for="contact-name" class="col-lg-2 control-label">Ime:</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="contact-name" placeholder="Ime in priimek">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="contact-name" class="col-lg-2 control-label">Telefon:</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="contact-name" placeholder="Telefonska številka">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="contact-email" class="col-lg-2 control-label">Email:</label>
+                <div class="col-lg-10">
+                    <input type="email" class="form-control" id="contact-email" placeholder="ime@primer.com">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="contact-name" class="col-lg-2 control-label">Termin:</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="contact-name" placeholder="Primer: Sreda popoldan">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="contact-msg" class="col-lg-2 control-label">Sporočilo:</label>
+                <div class="col-lg-10">
+                    <textarea class="form-control" rows="7" placeholder="Ostalo (želje glede pričeske itd.)"></textarea>
+                </div>
+            </div>
+            <div>
+                <p><a href="#" class="btn btn-default btn-lg gumb-poslji" role="button" type="submit">Oddaj termin</a></p>
+            </div>
+        </div>
+        
+        <div class="col-lg-6">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th>Dan</th>
+                            <th>Delovne ure</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ponedeljek</td>
+                            <td>8:00 - 16:00</td>
+                        </tr>
+                        <tr>
+                            <td>Torek</td>
+                            <td>10:00 - 18:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sreda</td>
+                            <td>8:00 - 16:00</td>
+                        </tr>
+                        <tr>
+                            <td>Četrtek</td>
+                            <td>8:00 - 16:00</td>
+                        </tr>
+                        <tr>
+                            <td>Petek</td>
+                            <td>12:00 - 15:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sobota</td>
+                            <td>8:00 - 16:00</td>
+                        </tr>
+                        <tr>
+                            <td>Nedelja</td>
+                            <td>8:00 - 12:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="text-center">
+                <p>*Ob praznikih velja nedeljski urnik</p>
+            </div>
+        </div>
+    </div>
+    
+    <br>
+    
+    <div class="container con_rob">
+        <div class="text-center">
+            <h2 id="faq" class="font_title">FAQ (pogosta vprašanja)</h2>
+        </div>
+        <br>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h4 class="panel-title font_title">
+                <a class="accordion-toggle">
+                    Kakšen je salon in ekipa? <i class="glyphicon glyphicon-sort pull-right"></i>
+                </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo sem molestie ex semper lacinia. Duis dictum non elit ac sollicitudin. Integer aliquam enim a sem aliquam ultrices. Nullam convallis eget velit id commodo. Donec cursus eget dolor imperdiet ultricies. Proin scelerisque felis sit amet enim convallis, sit amet consequat leo ultrices. Mauris auctor vehicula tortor eget pharetra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi aliquam massa eget placerat posuere.
+              </div>
+            </div>
+          </div>
+            
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <h4 class="panel-title font_title">
+                <a class="accordion-toggle">
+                  Ali sprejemate hišne ljubljenčke? <i class="glyphicon glyphicon-sort pull-right"></i>
+                </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">
+                Phasellus nec porttitor leo. Pellentesque mattis varius nibh non venenatis. Donec sed nisi enim. In eu eros erat. Nam commodo arcu eu vestibulum ultrices. Pellentesque suscipit, turpis in blandit fermentum, diam velit pretium dolor, eget maximus purus libero ut arcu. Etiam vitae quam fermentum nunc ornare congue ac nec ex. Morbi in porta lacus.
+              </div>
+            </div>
+          </div>
+            
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h4 class="panel-title font_title">
+                <a class="accordion-toggle">
+                  Imate kakšne nagrade s tekmovanj? <i class="glyphicon glyphicon-sort pull-right"></i>
+                </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body">
+                Integer orci erat, dictum quis rhoncus sit amet, aliquam aliquam quam. Pellentesque et mollis quam. Fusce id commodo velit. In dolor quam, mattis eget ante id, pellentesque euismod nisi. Nunc lectus nulla, rutrum vel pulvinar pellentesque, congue eu est. Nullam nisi eros, dignissim non hendrerit eget, lobortis nec metus. Aenean ullamcorper eleifend augue. Donec mattis libero nec pretium iaculis. Duis interdum magna nec lectus tristique, sed fermentum ligula vehicula. Nunc ac bibendum lorem. In felis erat, tincidunt et pellentesque quis, rutrum ut orci. In et libero urna. Donec rutrum odio vitae eros venenatis, id vehicula erat semper. Suspendisse vitae feugiat enim.
+              </div>
+            </div>
+          </div>
+            
+        </div>
+    </div>
+    
+    <br>
+    
+        <div class="container con_noga">
+            <br>
+            <div class="row">
+                <div class="footer-col col-md-3 col-md-offset-1  noga_link">
+                    <h4 class="font_title">Kontakt:</h4>
+                    <p>Mirko Styles s.p.</p>
+                    <p>Davčna št.: 648053246</p>
+                    <p>Moderna ulica 12, 1000 Ljubljana</p>
+                    <p>Tel: 01/23 35 543</p>
+                    <p>Email: <a href="mailto:mirko@mirko-styles.com" type="mail">mirko@mirko-styles.com</a></p>
+                </div>
+
+                <div class="footer-col col-md-2 col-md-offset-5 noga_link">
+                    <h4 class="font_title">Navigacija:</h4>
+                    <p><a href="#na_vrh">Na vrh</a></p>
+                    <p><a href="#kaj_nudimo">Kaj nudimo</a></p>
+                    <p><a href="#naroči_se">Naroči se</a></p>
+                    <p><a href="#faq">Pogosta vprašanja</a></p>
+                    <p><a href="#oNas" data-toggle="modal">O nas</a></p>
+                </div>
+            </div>
+        </div>
+    
+    
+    <div class="modal fade" id="oNas" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form class="form-horizontal">
+                        <div class="modal-header">
+                            <h4>O nas</h4>
+                        </div>
+                        <div class="modal-body">
+                            
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et neque aliquam, egestas odio sit amet, placerat libero. Proin euismod bibendum urna at aliquet. Vestibulum pulvinar magna in fermentum facilisis. Nulla placerat vel mauris non posuere. Ut nec dictum eros. Nulla tristique facilisis ante, at lobortis nisi commodo venenatis. Sed vehicula ullamcorper ipsum id suscipit. Aliquam erat volutpat. Vestibulum dictum justo et elementum vehicula.</p>
+                            <img src="img/hair_modal.jpg" class="img-responsive">
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <a class="btn btn-default" data-dismiss="modal">Close</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+    
+</body>
+</html>

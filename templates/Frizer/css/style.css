@@ -1,0 +1,70 @@
+body{
+    background: url(../img/background1.png) 0 0 repeat fixed, url(../img/background2.jpg) 50% 50% no-repeat fixed;
+    background-size: auto, cover;
+}
+
+.modal-body{
+    width: 100%;
+}
+
+.gumb-poslji{
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.con_rob{
+    background-color: rgba(245, 245, 245, 0.8);
+    border: 5px solid rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+}
+
+.con_noga{
+    background-color: rgba(245, 245, 245, 0.8);
+    border-left: 5px solid rgba(255, 255, 255, 0.9);
+    border-top: 5px solid rgba(255, 255, 255, 0.9);
+    border-right: 5px solid rgba(255, 255, 255, 0.9);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.noga_link a{
+    color: inherit;
+}
+
+.noga_link a:hover{
+    color: inherit;
+}
+
+.panel-heading {
+    cursor: pointer;
+}
+
+.table{
+    background-color: white;
+}
+
+.table-striped{
+    background-color: #f2f2f2;
+}
+
+.produkti_img{
+    height: 400px;
+}
+
+.barvanje_img{
+    height: 300px;
+}
+
+.font_title{
+    font-family:"Lithos Pro" "Comic Sans MS" inherit;
+}
+
+.carousel .carousel-control{
+    visibility: hidden;
+}
+
+.carousel:hover .carousel-control{
+    visibility: inherit;
+}
